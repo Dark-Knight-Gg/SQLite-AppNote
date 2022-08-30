@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Đăng ký"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:id="@+id/m3_txtDky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Username"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/m3_txtDky"
+        android:layout_marginTop="40dp"
+        android:id="@+id/m3_etxtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textSize="20sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/m3_etxtUsername"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/m3_etxtPassword"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:hint="Repeat password"
+        android:layout_below="@id/m3_etxtPassword"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/m3_etxtRepeatPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="italic"
+        android:id="@+id/m3_txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m3_etxtRepeatPassword"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Đăng nhập"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/m3_btnDky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m3_txtLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Đăng ký"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+</RelativeLayout>

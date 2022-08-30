@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Đăng nhập hệ thống"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:id="@+id/m1_txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/m1_etxtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m1_txtLogin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:hint="Username"
+        android:textSize="20sp" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/m1_etxtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m1_etxtUsername"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/m1_checkBoxLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m1_etxtPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Lưu đăng nhập"
+        android:textSize="20sp" />
+
+    <TextView
+        android:textStyle="italic"
+        android:id="@+id/m1_txtxDky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m1_etxtPassword"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:text="Đăng ký"
+        android:textSize="21sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_below="@id/m1_checkBoxLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/m1_btnLogin"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="23sp"/>
+</RelativeLayout>

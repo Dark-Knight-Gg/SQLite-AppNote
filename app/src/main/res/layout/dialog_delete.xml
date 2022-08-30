@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#FAF1A9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Bạn có chăc là muốn xóa côn việc này không?"
+        android:textSize="22sp"
+        android:textColor="#ff00"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/dialog_delete_txt"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/dialog_delete_btnYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_delete_txt"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Yes"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dialog_delete_btnNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_delete_txt"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/dialog_delete_btnYes"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="No"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+</RelativeLayout>

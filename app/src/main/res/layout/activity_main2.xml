@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:src="@drawable/back"
+        android:id="@+id/m2_imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Add"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:id="@+id/m2_btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:layout_below="@id/m2_imgBack"
+        android:id="@+id/m2_lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

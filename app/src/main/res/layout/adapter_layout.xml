@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="23sp"
+        android:textStyle="italic"
+        android:id="@+id/adapter_txt"
+        android:textColor="#ff00"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/edit"
+        android:layout_toRightOf="@id/adapter_txt"
+        android:layout_marginLeft="15dp"
+        android:layout_width="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/adapter_imgEdit"
+        android:layout_height="20dp"/>
+    <ImageView
+        android:src="@drawable/delete"
+        android:layout_toRightOf="@id/adapter_imgEdit"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/adapter_imgDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+</RelativeLayout>
